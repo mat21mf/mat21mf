@@ -1,37 +1,32 @@
 # Matias Rebolledo
 
-Data and platform engineer focused on scientific computing infrastructure and distributed systems.
+Data and platform engineer based in Barcelona. I build the pipelines, infrastructure and validation tooling that scientists, statisticians and analysts rely on, with geospatial and scientific data as my specialty.
 
-## Technical Background
+## What I work on
 
-Started in quantitative development (econometrics, statistics, ML), evolved into data engineering and platform infrastructure. Specialized in geospatial data processing, distributed systems, and Linux-based scientific computing environments.
+- **Data platforms** - batch pipelines and data lake architecture (Spark, Airflow, Trino, MinIO, Apache Iceberg), metadata and lineage (OpenMetadata), DuckDB for lightweight registries.
+- **Geospatial and scientific data** - GDAL, Rasterio, GeoPandas, xarray, PostGIS; GeoTIFF/COG, NetCDF, Parquet, STAC.
+- **HPC and deployment** - Slurm, Ansible, Docker/Singularity, GitLab CI/CD, Linux automation.
+- **Validation services** - FastAPI services and QC gates that stop bad data before it reaches downstream users.
 
-**Core areas:**
-- Data pipeline architecture and orchestration (Airflow, Spark)
-- Geospatial data systems (GDAL, PostGIS, NetCDF/HDF5)
-- Platform infrastructure and tooling
-- Distributed data processing
-- Linux system administration and automation
-- Scientific computing workflows
+## Background
 
-**Current interests:**
-- Systems programming (Go, C++, Rust)
-- Low-level optimization
-- HPC infrastructure
-- Game development
+13+ years across quantitative analysis, official statistics and scientific computing. I started in statistics and econometrics, moved into geospatial data production and national-scale data lake engineering, and now work on climate model data pipelines (CMIP) at the Barcelona Supercomputing Center.
 
-## Technical Stack
+## Currently exploring
 
-**Languages:** Python, SQL, Bash, C++ (learning), Rust (learning)
+- Spatio-temporal inference on noisy data: GPS probe traces, map-matching, speed and closure estimation.
+- Decision rules under uncertainty: ranking competing actions or alerts by probability x consequence.
+- Combinatorial designs and their computational side (enumeration, search, GPU/HPC performance).
+- A typed systems language for production services alongside Python.
 
-**Infrastructure:** Docker, Linux administration, CI/CD automation, cloud platforms (AWS, GCP)
+## Selected work
 
-**Data Systems:** PostgreSQL/PostGIS, Apache Airflow, Spark, data lake architecture
+- [`probe-traffic-lab`](https://github.com/mat21mf/probe-traffic-lab) - noisy GPS probes to per-segment speeds and closures: HMM map-matching and estimation prototyped in Python, production core in a typed language, evaluated against known ground truth.
+- [`sandbox-rag-mcp`](https://github.com/mat21mf/sandbox-rag-mcp) - RAG scaffold for restricted environments: offline embedding, prebuilt LanceDB index, HF-free ONNX query path, and an MCP server that orchestrates a GPU workstation.
+- [`gdal-parquet`](https://github.com/mat21mf/gdal-parquet) - reproducible source build of GDAL 3.9 with GeoParquet, PROJ, GEOS and TileDB.
+- [`quiz_spaceag`](https://github.com/mat21mf/quiz_spaceag) - Sentinel-2 NDVI time series for 33 avocado plots (2016-2020): shell ETL into per-plot daily grids, GeoPandas analysis and visualization.
 
-**Specialized:** GDAL raster processing, scientific data formats, distributed systems, metadata management
-
----
-
-Most work has been in organizational repositories. Portfolio demonstrations coming soon.
+Most of my professional work lives in institutional repositories.
 
 **Contact:** [LinkedIn](https://www.linkedin.com/in/matias-felipe-rebolledo-871494251) | matias.rebolledo@gmx.es
