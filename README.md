@@ -29,4 +29,4 @@ Data and platform engineer based in Barcelona. I build the pipelines, infrastruc
 
 Most of my professional work lives in institutional repositories.
 
-**Contact:** [LinkedIn](https://www.linkedin.com/in/matias-felipe-rebolledo-871494251) | matias.rebolledo@gmx.es
+**Contact:** [LinkedIn](https://www.linkedin.com/in/matias-felipe-rebolledo-871494251) | el4ur22lh@mozmail.com
